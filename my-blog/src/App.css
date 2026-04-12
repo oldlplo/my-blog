@@ -1,0 +1,14 @@
+.header {
+  background-color: #b48754;
+  color: black; 
+  width: 100%; 
+  padding: 10px 0;
+  text-align: center; 
+}
+.main-image {
+  margin-top: 30px; 
+  max-width: 100%;
+}
+.text {
+  margin-top: 30px;
+}
