@@ -19,6 +19,9 @@ function App() {
           매일 꽃구경만 다니고 싶어요<br></br>
           제가 왜 6전공을 했을까요? 저는 감자인데 교수님은 왜 감자한테 과제를 시키는 거죠?<be></be>
         </p>
+        <p>
+          <button onClick={() => alert('응원 감사합니다!')}>응원!</button>
+        </p>
       </div>
     </main>
     </div>
