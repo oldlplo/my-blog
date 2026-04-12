@@ -1,5 +1,7 @@
 import './App.css'
+import { useState } from 'react'
 function App() {
+  const [count, setCount] = useState(0); 
   return (
     <div className="container">
       <header className="header">
@@ -19,8 +21,9 @@ function App() {
           매일 꽃구경만 다니고 싶어요<br></br>
           제가 왜 6전공을 했을까요? 저는 감자인데 교수님은 왜 감자한테 과제를 시키는 거죠?<be></be>
         </p>
+        <p>현재 응원 수: {count}번</p>
         <p>
-          <button onClick={() => alert('응원 감사합니다!')}>응원!</button>
+          <button onClick={() => {alert('응원 감사합니다!'); setCount(count + 1);}}>응원!</button>
         </p>
       </div>
     </main>
